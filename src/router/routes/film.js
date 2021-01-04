@@ -21,7 +21,7 @@ const film = [
     ]
   },
   {
-    path:'/detail',
+    path:'/films/:filmId',
     component:Detail
   }
 ]
