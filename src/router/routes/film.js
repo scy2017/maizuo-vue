@@ -1,0 +1,29 @@
+// 电影模块组件
+
+import Films from '@/views/Films/Index'
+import NowPlaying from '@/views/Films/NowPlaying'
+import ComingSoon from '@/views/Films/ComingSoon'
+import Detail from '@/views/Films/Detail'
+
+const film = [
+  {
+    path:'/films',
+    component:Films,
+    children:[
+      {
+        path:'nowPlaying',
+        component:NowPlaying
+      },
+      {
+        path:'comingSoon',
+        component:ComingSoon
+      }
+    ]
+  },
+  {
+    path:'/detail',
+    component:Detail
+  }
+]
+
+export default film

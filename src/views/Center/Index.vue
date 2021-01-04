@@ -1,0 +1,6 @@
+<template>
+  <div>
+    我的组件
+  </div>
+</template>
+  
