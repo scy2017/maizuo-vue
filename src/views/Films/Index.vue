@@ -1,7 +1,15 @@
 <template>
   <div>
-    电影模块父组件
+    <Header />
     <!-- 渲染容器 -->
     <router-view />
   </div>
 </template>
+<script>
+import Header from '@/components/Navigation/Header'
+export default{
+  components:{
+    Header
+  }
+}
+</script>
