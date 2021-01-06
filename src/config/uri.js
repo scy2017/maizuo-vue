@@ -11,5 +11,6 @@ export default{
   getNowPlaying:prefix + '/getNowPlayingFilmList',
   // 获取即将上映列表
   getComingSoon:prefix + '/getComingSoonFilmList',
-  
+  // 获取电影详情信息
+  getFilmInfo:prefix + '/getFilmInfo'
 }
